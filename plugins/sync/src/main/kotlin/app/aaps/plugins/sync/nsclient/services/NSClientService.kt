@@ -92,8 +92,8 @@ class NSClientService : DaggerService() {
     companion object {
 
         private const val WATCHDOG_INTERVAL_MINUTES = 2
-        private const val WATCHDOG_RECONNECT_IN = 15
-        private const val WATCHDOG_MAX_CONNECTIONS = 5
+        private const val WATCHDOG_RECONNECT_IN = 2
+        private const val WATCHDOG_MAX_CONNECTIONS = 15
     }
 
     private val disposable = CompositeDisposable()
